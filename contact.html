@@ -1,116 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Contact | Dhaaniya Shree</title>
-    <meta name="description" content="Contact Dhaaniya Shree.">
+
+    <meta name="description"
+        content="Contact Dhaaniya Shree for projects, opportunities, collaboration and networking.">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <nav aria-label="Main navigation">
-        <a href="index.html" class="logo">Dhaaniya.</a>
+    <header>
+        <nav aria-label="Main navigation">
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="certificates.html">Certificates</a></li>
-            <li><a href="contact.html" aria-current="page">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+            <a href="index.html" class="logo">Dhaaniya.</a>
 
-<main>
-    <section class="section">
-    <h1>Contact Me</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certificates.html">Certificates</a></li>
+                <li>
+                    <a href="contact.html" aria-current="page">Contact</a>
+                </li>
+            </ul>
 
-    <p>
-        I'd love to connect with you. Feel free to reach out through the details below.
-    </p>
+        </nav>
+    </header>
 
-    <div class="contact-container">
 
-        <div class="contact-card">
-            <h2>Email</h2>
-            <p>gvdhaaniyashree@gmail.com</p>
-        </div>
+    <main>
 
-        <div class="contact-card">
-            <h2>LinkedIn</h2>
-            <p>Connect with me on LinkedIn</p>
-            <a href="https://www.linkedin.com/" target="_blank">
-                View LinkedIn
-            </a>
-        </div>
+        <section class="section">
 
-        <div class="contact-card">
-            <h2>Location</h2>
-            <p>Chennai, India</p>
-        </div>
+            <h1>Contact Me</h1>
 
-    </div>
-</section>
+            <p>
+                Feel free to reach out to me for projects,
+                opportunities, collaboration or networking.
+            </p>
 
-    <section class="section">
-        <h1>Contact Me</h1>
+
+            <div class="contact-container">
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+
+                    <h2>Email</h2>
+
+                    <p>
+                        <a href="mailto:gvdhaaniyashree@gmail.com">
+                            gvdhaaniyashree@gmail.com
+                        </a>
+                    </p>
+
+
+                    <h2>LinkedIn</h2>
+
+                    <p>
+                        Connect with me on LinkedIn.
+                    </p>
+
+                    <a href="https://www.linkedin.com/in/dhaaniya-shree-g-v-aa1001380?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        View LinkedIn
+                    </a>
+
+
+                    <h2>Location</h2>
+
+                    <p>
+                        Chennai, India
+                    </p>
+
+                </div>
+
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+
+                    <form>
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+
+                        <label for="email">
+                            Your Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+
+                        <label for="message">
+                            Your Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+
+                        <button type="submit">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
 
         <p>
-            Feel free to reach out to me for projects, opportunities,
-            collaboration or networking.
+            © 2026 Dhaaniya Shree G V. All rights reserved.
         </p>
 
-        <form id="contactForm"
-      action="mailto:gvdhaaniyashree@gmail.com"
-      method="post"
-      enctype="text/plain"> 
+    </footer>
 
-            <label for="name">Your Name</label>
-            <input
-                type="text"
-                id="name"
-                name="name"
-                autocomplete="name"
-                required
-            >
 
-            <label for="email">Your Email</label>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                autocomplete="email"
-                required
-            >
-
-            <label for="message">Your Message</label>
-            <textarea
-                id="message"
-                name="message"
-                rows="6"
-                required
-            ></textarea>
-
-            <button type="submit">Send Message</button>
-
-            <p id="formMessage" aria-live="polite"></p>
-
-        </form>
-    </section>
-
-</main>
-
-<footer>
-    <p>© 2026 Dhaaniya Shree G V. All rights reserved.</p>
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
